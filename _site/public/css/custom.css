@@ -1,0 +1,29 @@
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: 'PT-Sans', sans-serif;
+  font-size: 2.0rem;
+}
+
+@media (min-width: 48em) {
+  .sidebar .container .sidebar-nav {
+    font-size: 14px;
+  }
+}
+@media (min-width: 58em) {
+  .sidebar .container .sidebar-nav {
+    font-size: 18px;
+  }
+}
+
+.sidebar {
+  text-align: left;
+}
+
+.client-name {
+
+}
+
+.content .container .customhome {
+  background-color: #000;
+}

@@ -1,0 +1,27 @@
+# Dependencies (we now need jekyll-paginate see https://github.com/ItachiSan/itachisan.github.io/commit/0fa0e1f282daadf526065de4a3f89179ed4c901a)
+gems:             [jekyll-paginate]
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#we don't need this relative_permalinks: true
+
+# Setup
+title:            London Cancer
+tagline:          'Group 12 COMP203P Project Website'
+description:      'Group 12 COMP203P Project Website'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Henry Moulton'
+  url:            http://moultz.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
