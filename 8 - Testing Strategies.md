@@ -3,28 +3,45 @@ layout: page
 title: Testing Strategies
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## Automated Testing
+Using a combination of WordPress' guide of [automated testing](https://make.wordpress.org/core/handbook/testing/automated-testing/) and WordPress [theme tests](http://codex.wordpress.org/Theme_Unit_Test) for automated testing of bugs.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Cross Browser Testing
 
-There are currently two themes built on Poole:
+It's important to test the website in different websites to check for bugs or unexpected behavior.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+For the new version of London Cancer we will be testing on Desktop:
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+* All Internet Explorer versions greater than 8
+* Safari
+* Chrome
+* Firefox
+* Microsoft Edge
 
-## Setup
+And on Mobile:
 
-Some fun facts about the setup of this project include:
+* iOS Safari
+* Android Chrome
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+However its quite difficult to test all these browsers manually. Fortunately there are tools that automate a bit of the process. Tools that we've looked at include [Browsershots.org](http://browsershots.org/http://46.101.80.67/) and the more premium [Sauce Labs](https://saucelabs.com/)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+## Accessibility Testing
+
+Creating a website that everyone can use should be the aim of the new website. However how do you test that the website is accessible?
+
+You have to account for:
+
+* Those who cannot see or use a mouse.
+* Deaf users whose first language is sign language.
+* Visitors whose primary language is not your language.
+* People who use special assistive software or hardware to access the Web.
+* People who are colour blind or can’t see low colour contrast.
+
+Source: [WordPress Accessibility](http://codex.wordpress.org/Accessibility)
+
+Using the [WAVE web accessibility tool](http://wave.webaim.org/) and checking off the W3C's Web Content Accessibility Guide (WCAG) which is found [here](http://www.w3.org/WAI/WCAG20/quickref/).
+
+
+## Manual Performance Testing
+[Google's Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/) and using a WordPress [plugin](https://wordpress.org/plugins/p3-profiler/) to determine plugin performance the site should be sufficient for determining how performant the website is.

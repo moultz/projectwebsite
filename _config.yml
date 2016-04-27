@@ -11,8 +11,8 @@ permalink:        pretty
 title:            London Cancer
 tagline:          'Group 12 COMP203P Project Website'
 description:      'Group 12 COMP203P Project Website'
-url:              http://hyde.getpoole.com
-baseurl:          /
+url:              http://
+baseurl:          /2015/group12/
 
 author:
   name:           'Henry Moulton'

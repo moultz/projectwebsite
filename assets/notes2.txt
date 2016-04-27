@@ -1,0 +1,64 @@
+Dear Priyanka,
+
+We felt the meeting went well yesterday and thank you for taking time out to meet with us during this busy time for you. We hope your other websites and projects are as successful as (hopefully!) this one.
+
+Action Points for next meeting: 16th November 3pm.
+
+Henry & Matthew:
+	• Analytics: Tracking use of directory of services
+
+	• Monitoring: Use Pingdom
+
+	• Security: Look into CloudFlare, gives SSL + additional benefits
+
+	• Documentation: Provide copy of code in a repository as well as documentation including plugins used and additional code outside of WordPress, keep in mind to make the tools used widely available and easily understood to make the handover easy for another development team to maintain.
+
+	• The homepage content should reflect the different use cases of the different audiences, start creating a wireframe of this homepage content
+
+	• Scope of website: Remove Rate your Experience from Contact page
+
+	• Create user testing questionnaire
+
+	• Have the user testing questionnaire focus on the navigation bar in addition to other user requirements
+
+	• Add additional sections to Usability & Accessibility regarding multi-lingual core pages and making the website easy to ready
+
+Priyanka:
+	• Translated copy for Bengali, etc community
+
+	• Provide code of existing website, also ideally the analytics logs to see which areas of the site are popular
+
+	• Training: Training + Handover requirements what would be needed for UCLH. “Education guide”
+
+	• Quote from London Cancer on the benefits of the website redevelopment to go on the redevelopment website and to be used as text in a video
+
+	• https://www.dropbox.com/s/g7kr83y8gk86mzv/Screenshot%202015-11-04%2017.00.55.png?dl=0 I did a price quote on CMS2CMS, is this something you want to go ahead with?
+
+Functionality Overview:
+I just want to make sure I’m clear about some of the functionality of the pages, could you please confirm and fill in the blanks:
+
+Directory of Services: User enters whether they are GP, Professional, or Patient, this is stored in DB and returns relevant services.
+
+GP Referral Forms: Directory of .Doc or .PDF files
+
+Pathway Boards:
+
+Patient, Carers and Public section:
+
+Have all 4 of the above sections featured on the homepage dynamically pulling content (First Paragraph? Or just editable text summarisation?) from their respective pages.
+
+News: Utilises WordPress’ blog functionality to allow multiple users to post news and updates
+
+Events: Utilises a WordPress plugin or if unsuitable we write our own, will need to style using LC branding
+
+Contact: Full contact details including a map.
+
+
+Pages with anchor points: @Priyanka we mentioned this in the meeting but could you just reiterate which pages would have anchor points.
+
+We’ll look to send over a revised Specification document once we have these points covered and completed further technical research.
+—
+Do please let us know if we’re missing anything, hope you have a good week!
+
+Best regards,
+Henry & Matthew

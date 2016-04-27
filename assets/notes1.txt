@@ -1,0 +1,25 @@
+Dear Priyanka,
+
+Thank you very much for meeting us yesterday we felt the meeting was very successful and we gained a good first impression of what needs to be delivered for moving the London Cancer website to WordPress.
+
+Action Points for next meeting: 3rd November.
+
+Henry & Matthew:
+Initial specification document to send to you by Monday 26th October
+Bi-Weekly report sent on the 30th October
+Additionally:
+Understanding Umbraco / existing website structure and source code
+Coming up with solution for navigation of the content-heavy site, specifically the “Our Work” section
+Starting design for homepage with wire frames
+
+Priyanka:
+Feedback on Specification once delivered on Monday 26th, so it can be sent back as soon as possible any possible changes
+Additionally, if possible:
+A Umbraco Login, databases and website source code or if easier, FTP access to server
+Providing information on how handover will work, perhaps a developers contact information
+London Cancer branding
+—
+Do please let us know if we’re missing anything, hope you have a good week!
+
+Best regards,
+Henry & Matthew

@@ -1,0 +1,50 @@
+Dear Priyanka,
+
+Thank you for meeting us we highly appreciate it and felt that it was really enlightening hearing about your perspective and experience with agencies.
+
+Action Points for next meeting: 30th November 3pm.
+
+Henry & Matthew:
+Start WordPress Development setting up a local environment and an online destination environment
+Learn about backwards compatibility for Internet Explorer 8
+Analyse Responsive Frameworks
+Analyse Navigation User Experiences on mobile
+Upload website detailing progress of project
+
+Priyanka:
+	• Follow up with meeting regarding translated copy for additional language
+
+	• Provide code of existing website, also ideally the analytics logs to see which areas of the site are popular
+
+	• Training: Training + Handover requirements what would be needed for UCLH. “Education guide”
+
+	• Quote from London Cancer on the benefits of the website redevelopment to go on the redevelopment website and to be used as text in a video
+
+	• Purchase of cms2cms https://www.cms2cms.com/cms/supported-cms/umbraco-to-wordpress-migration/ requires  "Your Source site and Target site installed and available online” "FTP access to your Source and Target sites” so will hold off on that for a bit.
+
+2nd December list of requirements what Patients and Carers want
+
+
+Functionality Overview 2:
+Think we filled in the blanks here:
+
+Directory of Services: User enters whether they are GP, Professional, or Patient, this is stored in DB for analytics purposes. Boroughs, Service Types and Service Subtypes are returned from services. Currently done via a CSV file that is maintained and uploaded.
+
+GP Referral Forms: Directory of .Doc or .PDF files .EMIS
+
+Pathway Boards: Brain and spine - Urological: Directory of .PDFs
+
+Patient, Carers and Public section: Lists of text, links and images with anchor points
+
+Have all 4 of the above sections featured on the homepage as editable text summarisation.
+
+News: Utilises WordPress’ blog functionality to allow single user to post news and updates
+
+Events: Utilises a WordPress plugin or if unsuitable we write our own, will need to style using LC branding, filterable by audience and speciality.
+
+Contact: Full contact details including a map.
+—
+Do please let us know if we’re missing anything, hope you have a good week!
+
+Best regards,
+Henry & Matthew

@@ -15,31 +15,34 @@
     
   </title>
 
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="/public/css/animate.css">
-  <link rel="stylesheet" href="/public/css/custom.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/poole.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/syntax.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/hyde.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/animate.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/custom.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700">
   <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/2015/group12/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/2015/group12/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-  <body class="theme-base-0d animated fadeIn">
+  <body class="theme-base-0d">
 
     <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
       <p class="client-name lead">
-        <a href="/">
+        <a href="/2015/group12/">
           LondonCancer.org Website Development
         </a>
       </p>
@@ -48,7 +51,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/">Home</a>
+      <a class="sidebar-nav-item" href="/2015/group12/">Home</a>
 
       
 
@@ -58,7 +61,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/1%20-%20Background%20&%20Context/">Background & Context</a>
+              <a class="sidebar-nav-item" href="/2015/group12//1%20-%20Background%20&%20Context/">Background & Context</a>
             </li>
           
         
@@ -66,7 +69,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/2%20-%20Requirements%20&%20Use%20Cases/">Requirements & Use Cases</a>
+              <a class="sidebar-nav-item" href="/2015/group12//2%20-%20Requirements%20&%20Use%20Cases/">Requirements & Use Cases</a>
             </li>
           
         
@@ -74,7 +77,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/3%20-%20Research/">Research</a>
+              <a class="sidebar-nav-item" href="/2015/group12//3%20-%20User%20Interface/">User Interface</a>
             </li>
           
         
@@ -82,7 +85,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/4%20-%20Platform/">Platform</a>
+              <a class="sidebar-nav-item" href="/2015/group12//4%20-%20Research/">Research</a>
             </li>
           
         
@@ -94,7 +97,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/5%20-%20Prototypes%20&%20Experiments/">Prototypes & Experiments</a>
+              <a class="sidebar-nav-item" href="/2015/group12//5%20-%20Platform/">Platform</a>
             </li>
           
         
@@ -102,7 +105,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/6%20-%20User%20Interface/">User Interface</a>
+              <a class="sidebar-nav-item" href="/2015/group12//6%20-%20Prototypes%20&%20Experiments/">Prototypes & Experiments</a>
             </li>
           
         
@@ -110,7 +113,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/7%20-%20GitHub%20Repository/">GitHub Repository</a>
+              <a class="sidebar-nav-item" href="/2015/group12//7%20-%20GitHub%20Repository/">GitHub Repository</a>
             </li>
           
         
@@ -118,7 +121,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item active" href="/8%20-%20Testing%20Strategies/">Testing Strategies</a>
+              <a class="sidebar-nav-item active" href="/2015/group12//8%20-%20Testing%20Strategies/">Testing Strategies</a>
             </li>
           
         
@@ -126,7 +129,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/9%20-%20Record%20of%20Progress/">Record of Progress</a>
+              <a class="sidebar-nav-item" href="/2015/group12//9%20-%20Record%20of%20Progress/">Record of Progress</a>
             </li>
           
         
@@ -134,7 +137,7 @@
         
           
             <li>
-              <a class="sidebar-nav-item" href="/91%20-%20Plans%20for%20Term%202/">Plans for Term 2</a>
+              <a class="sidebar-nav-item" href="/2015/group12//91%20-%20Plans%20for%20Term%202/">Plans for Term 2</a>
             </li>
           
         
@@ -160,39 +163,62 @@
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Testing Strategies</h1>
-  <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+  <h2>Automated Testing</h2>
 
-<p>In the novel, <em>The Strange Case of Dr. Jeykll and Mr. Hyde</em>, Mr. Poole is Dr. Jekyll&#39;s virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It&#39;s made by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+<p>Using a combination of WordPress&#39; guide of <a href="https://make.wordpress.org/core/handbook/testing/automated-testing/">automated testing</a> and WordPress <a href="http://codex.wordpress.org/Theme_Unit_Test">theme tests</a> for automated testing of bugs.</p>
 
-<p>There are currently two themes built on Poole:</p>
+<h2>Cross Browser Testing</h2>
 
-<ul>
-<li><a href="http://hyde.getpoole.com">Hyde</a></li>
-<li><a href="http://lanyon.getpoole.com">Lanyon</a></li>
-</ul>
+<p>It&#39;s important to test the website in different websites to check for bugs or unexpected behavior.</p>
 
-<p>Learn more and contribute on <a href="https://github.com/poole">GitHub</a>.</p>
-
-<h2>Setup</h2>
-
-<p>Some fun facts about the setup of this project include:</p>
+<p>For the new version of London Cancer we will be testing on Desktop:</p>
 
 <ul>
-<li>Built for <a href="http://jekyllrb.com">Jekyll</a></li>
-<li>Developed on GitHub and hosted for free on <a href="https://pages.github.com">GitHub Pages</a></li>
-<li>Coded with <a href="http://sublimetext.com">Sublime Text 2</a>, an amazing code editor</li>
-<li>Designed and developed while listening to music like <a href="https://soundcloud.com/maddecent/sets/blood-bros-series">Blood Bros Trilogy</a></li>
+<li>All Internet Explorer versions greater than 8</li>
+<li>Safari</li>
+<li>Chrome</li>
+<li>Firefox</li>
+<li>Microsoft Edge</li>
 </ul>
 
-<p>Have questions or suggestions? Feel free to <a href="https://github.com/poole/issues/new">open an issue on GitHub</a> or <a href="https://twitter.com/mdo">ask me on Twitter</a>.</p>
+<p>And on Mobile:</p>
 
-<p>Thanks for reading!</p>
+<ul>
+<li>iOS Safari</li>
+<li>Android Chrome</li>
+</ul>
+
+<p>However its quite difficult to test all these browsers manually. Fortunately there are tools that automate a bit of the process. Tools that we&#39;ve looked at include <a href="http://browsershots.org/http://46.101.80.67/">Browsershots.org</a> and the more premium <a href="https://saucelabs.com/">Sauce Labs</a></p>
+
+<h2>Accessibility Testing</h2>
+
+<p>Creating a website that everyone can use should be the aim of the new website. However how do you test that the website is accessible?</p>
+
+<p>You have to account for:</p>
+
+<ul>
+<li>Those who cannot see or use a mouse.</li>
+<li>Deaf users whose first language is sign language.</li>
+<li>Visitors whose primary language is not your language.</li>
+<li>People who use special assistive software or hardware to access the Web.</li>
+<li>People who are colour blind or can’t see low colour contrast.</li>
+</ul>
+
+<p>Source: <a href="http://codex.wordpress.org/Accessibility">WordPress Accessibility</a></p>
+
+<p>Using the <a href="http://wave.webaim.org/">WAVE web accessibility tool</a> and checking off the W3C&#39;s Web Content Accessibility Guide (WCAG) which is found <a href="http://www.w3.org/WAI/WCAG20/quickref/">here</a>.</p>
+
+<h2>Manual Performance Testing</h2>
+
+<p><a href="https://developers.google.com/speed/pagespeed/insights/">Google&#39;s Pagespeed Insights</a> and using a WordPress <a href="https://wordpress.org/plugins/p3-profiler/">plugin</a> to determine plugin performance the site should be sufficient for determining how performant the website is.</p>
 
 </div>
 
+
+      <hr>
+
     </div>
+
 
   </body>
 </html>

@@ -3,28 +3,28 @@ layout: page
 title: Record of Progress
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+16th October 2015: [Bi-Weekly Report 1](/assets/bw1.pdf)
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+20th October 2015: First meeting with client - [Client Meeting Notes](/assets/notes1.txt)
 
-There are currently two themes built on Poole:
+26th October 2015: Initial website specification submitted
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+30th October 2015: [Bi-Weekly Report 2](/assets/bw2.pdf)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+3rd November 2015: Second meeting with client - [Client Meeting Notes](/assets/notes2.txt)
 
-## Setup
+16th November 2015: [Bi-Weekly Report 3](/assets/bw3.pdf)
 
-Some fun facts about the setup of this project include:
+16th November 2015: Third meeting with client - [Client Meeting Notes](/assets/notes3.txt)
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+20th November 2015: Start project website
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+21st November 2015: Project details page added
 
-Thanks for reading!
+27th November 2015: [Bi-Weekly Report 4](/assets/bw4.pdf)
+
+11th December 2015: [Bi-Weekly Report 5](/assets/bw5.pdf)
+
+Throughout the first half of term we worked on a website specification document to plan with our client the website's redevelopment. It is less formal than a set of requirements and use cases however helped us understand all the different aspects of website development better.
+
+You can download it [here](/assets/londoncancerspec.pdf).

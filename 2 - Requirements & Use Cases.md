@@ -3,28 +3,861 @@ layout: page
 title: Requirements & Use Cases
 ---
 
+<!-- PROJECT REQUIREMENTS AND USE CASES:
+
+The detailed project requirements and scope that have been identified and agreed with the client. A clear and well-defined set of requirements should be presented, including use cases as appropriate.(b) Include user interface requirements (as relevant to your project).
+
+“￼Capture a feasible set of requirements for the system or application, taking care to specify the scope (what is included and what is not) and the expected behaviour and performance. Relevant issues such as security, robustness, reliability, cost, and other properties you identify, should be specified.” The project requirements should be reflected in the prototypes made in section 6.
+
+User interface requirements should be linked to the development of the User Interface (section 7)
+-->
+## Requirements
+
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  This section covers the requirements and use cases of the website as well as requirements of the user interface. We use the <a href="https://en.wikipedia.org/wiki/FURPS">FURPS</a> framework for splitting up and categorising our requirements into Functional requirements, and Non-Functional requirements including Usability, Reliability, Performance and Supportability.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-There are currently two themes built on Poole:
+### Functional Requirements:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+<p class="message">
+  What does the website need to do? What are its features and capabilities
+</p>
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Requirement</th>
+    <th>MoSCoW</th>
+  </tr>
+  <tr>
+    <td class="moscowid">F1</td>
+    <td class="moscowrequirement">The website shall allow a non-technical administrative user to edit and manage the website's pages through the use of WordPress.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F2</td>
+    <td class="moscowrequirement">The website shall allow a non-technical administrative user to add, edit and remove events on the events page.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F3</td>
+    <td class="moscowrequirement">The website shall allow a non-technical administrative user to write, edit, and remove blog posts on the news page.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F4</td>
+    <td class="moscowrequirement">The website shall allow a non-technical administrative user to upload files available for download on the Referral Forms website.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F5</td>
+    <td class="moscowrequirement">The website shall store a number of services in a database. A non-technical administrative user must be able to add, edit or remove entries in a user-friendly way through the use of a Graphical User Interface (GUI).</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F6</td>
+    <td class="moscowrequirement">The website shall be able to collect the details of a user submitted form and store them in a database and return relevant services to the user from the database.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F7</td>
+    <td class="moscowrequirement">The website shall be able to scroll to a certain part of the page when a user selects a link.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F8</td>
+    <td class="moscowrequirement">The website shall be able to allow users to search for contact details of a certain hospital or the contact details for hospitals that can deal with a certain cancer pathway.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F9</td>
+    <td class="moscowrequirement">The website shall allow a non-technical administrative user to edit the content on the front page.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">F10</td>
+    <td class="moscowrequirement">The website shall allow users to sign up to a emailing list hosted by MailChimp.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+</table>
 
-## Setup
+### Usability Requirements:
 
-Some fun facts about the setup of this project include:
+<p class="message">
+  The user experience, Aesthetics, Consistency, Documentation, Legal, Responsiveness
+</p>
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Requirement</th>
+    <th>MoSCoW</th>
+  </tr>
+  <tr>
+    <td class="moscowid">U1</td>
+    <td class="moscowrequirement">The website shall be easy to navigate on any device.
+    </td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U2</td>
+    <td class="moscowrequirement">The website shall use the existing style guidelines provided London Cancer.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U3</td>
+    <td class="moscowrequirement">The website shall keep a consistent style.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U4</td>
+    <td class="moscowrequirement">The website shall be optimised and easy to use on desktop, tablet and mobile devices.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U5</td>
+    <td class="moscowrequirement">The website shall have documentation for administrative users to how the website is structured and how to edit its content via WordPress.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U6</td>
+    <td class="moscowrequirement">The website shall let a user change its text size on content pages.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U7</td>
+    <td class="moscowrequirement">The website shall be accessible to those who are visually impaired.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U8</td>
+    <td class="moscowrequirement">The website shall have multiple languages available for content.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">U9</td>
+    <td class="moscowrequirement">The website should notify users of the use of any cookies and for there consent.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+<table>
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!
+
+<h3>Reliability Requirements:</h3>
+
+<p class="message">
+  Availability, Robustness, Security and Recoverability
+</p>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Requirement</th>
+    <th>MoSCoW</th>
+  </tr>
+  <tr>
+    <td class="moscowid">R1</td>
+    <td class="moscowrequirement">The website should be online and available at all times except when being maintained or updated.
+    </td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">R2</td>
+    <td class="moscowrequirement">The website should be robust and not crash for any reason.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">R3</td>
+    <td class="moscowrequirement">The website should be secure and safe.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">R4</td>
+    <td class="moscowrequirement">The website should use HTTPS to encrypt user traffic.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">R5</td>
+    <td class="moscowrequirement">The website should be recoverable and should be automatically backed up every week to two different offsite locations.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+</table>
+
+
+
+### Performance Requirements:
+
+<p class="message">
+  Speed, Resource Consumption, Scalability
+</p>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Requirement</th>
+    <th>MoSCoW</th>
+  </tr>
+  <tr>
+    <td class="moscowid">P1</td>
+    <td class="moscowrequirement">The website should have fast loading times across all devices.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">P2</td>
+    <td class="moscowrequirement">The website shall aim to score highly on Google's Pagespeed Insights.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">P3</td>
+    <td class="moscowrequirement">The website should consume server resources efficiently.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">P4</td>
+    <td class="moscowrequirement">The website should be easy to scale in in the case of heavy website usage.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+
+
+
+</table>
+
+### Supportability Requirements:
+
+<p class="message">
+  Installability , Testability, Extensibility and Maintainability
+</p>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Requirement</th>
+    <th>MoSCoW</th>
+  </tr>
+  <tr>
+    <td class="moscowid">S1</td>
+    <td class="moscowrequirement">The website shall be trivial to get up and running on a server.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">S2</td>
+    <td class="moscowrequirement">The website shall pass all code tests, some automated, some manual.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">S3</td>
+    <td class="moscowrequirement">The website shall pass all browser tests of browsers dating back to Internet Explorer 8.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">S4</td>
+    <td class="moscowrequirement">The website shall be easy to modify and extend.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">S5</td>
+    <td class="moscowrequirement">The website shall have a minimum amount of work for its maintenance.</td>
+    <td class="moscowranking">Should Have</td>
+  </tr>
+  <tr>
+    <td class="moscowid">S6</td>
+    <td class="moscowrequirement">The website shall have documentation covering all of the above aspects.</td>
+    <td class="moscowranking">Must Have</td>
+  </tr>
+</table>
+
+## Use Cases
+<!-- Use cases will be between the Patients, Cancer Professionals and General Practitioners. -->
+
+<!-- needs to include Events, Contact, Directory of Services, Pathway Boards, GP Referral Forms -->
+
+<!-- Actors: Administrator, General Practitioner, Cancer Professional, Cancer Patient -->
+
+<!-- Administrator: Editing a content page, Editing the homepage, adding a blog post, adding an event, adding a service to the directory of services, uploading a GP Referral Form and adding it to the page. -->
+
+<!-- General Practitioner: Accessing the GP Referral Form page and downloading the relevant form -->
+
+<!-- Cancer Professional: Accessing information about Cancer Pathway Boards on a large page that has several links which can be skipped to.
+-->
+
+<!-- Cancer Patient: Accessing information regarding a certain type of cancer, Accessing contact information of local services through the directory of services, and Find a hospital through the contact page. -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>EditingAPage</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC1</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F1</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>The website Administrator edits a page of content.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>Administrator is logged into WordPress.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the Administrator accesses the Pages section of the WordPress dashboard.</li>
+        <li>WordPress displays a list of the website's pages.</li>
+        <li>The Administrator selects the content page that they would like to edit by selecting 'Edit'.</li>
+        <li>The Administrator makes changes to the content using the WordPress page editor.</li>
+        <li>The Administrator selects 'Update Page' to save their changes.</li>
+      </ol>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>WordPress saves the changes to the database and updates the pages content to be displayed on the website.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!-- end of first use case -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>AddingAnEvent</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC2</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F2</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>Add an Event</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The Administrator is logged into WordPress.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the Administrator accesses the Events page</li>
+        <li>The Administrator then selects the 'Add Event'.
+        <li>WordPress displays a New Event page where the title, date, time, location and description can be filled in.</li>
+        <li>The Administrator fills in these fields and selects 'Save Event'.</li>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>WordPress saves the event to the database and displays the event on the Events Page.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>AddingABlogPost</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC3</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F3</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>The Administrator adds a blog post to the News page.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The Administrator is logged into WordPress.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the Administrator accesses the Posts page.</li>
+        <li>The Administrator then selects 'Add Post'.</li>
+        <li>The Administrator then fills in the title of the post and the content the post contains.</li>
+        <li>The Administrator then selects 'Save Post'.</li>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>WordPress saves the post to the database and updates the News page with the latest post.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!-- end of UC3 -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>UploadGPReferralForm</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC4</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F4</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>Administrator wants to upload a GP Referral Form to the GP Referral Forms Page.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The Administrator is logged into WordPress.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ul>
+        <li>The use case starts when the Administrator accesses the Pages section.</li>
+        <li>The Administrator selects the GP Referral Forms page by selecting 'Edit'.</li>
+        <li>The Administrator navigates through the content editor to select an area of the page which they'd like to add a file to download.</li>
+        <li>The Administrator then selects Add Media and selects Select Files, choosing the GP Referral Form to upload</li>
+        <li>The Administrator then selects 'Insert into page'</li>
+        <li>The Administrator selects 'Update'</li>
+      </ul>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>WordPress updates saves the updated page to the database ready to be shown for a user to download the latest GP Referral Form.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!-- end of UC4 -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>AddServiceToDirectoryOfServices</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC5</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F5</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>Add a service to the directory of services.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The Administrator is logged into WordPress.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the Administrator selects the Directory of Services Plugin and selects Add a Service.</li>
+        <li>The Administrator selects the borough of the service, the services type, and its subtype.</li>
+        <li>The Administrator additionally enters the Name, Services Offered, Address, Telephone numbers, Email and Website into text fields</li>
+        <li>The Administrator selects 'Save Service'</li>
+    </td>
+
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>A service is added to the database and can be viewed via the Directory of Services</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!-- end of UC5 -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>StoreUserDetailsAndDisplayRelevantServices</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC6</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F6</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>When a user enters some details about services they require on the website it returns with relevant services while also saving these details sercurely to a log. </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>User</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td>WordPress</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The User is on the Directory of Services page.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+          <li>The User selects from a series of dropdowns the borough, service type and sub-type that they require as well as details about whether they are a Patient, General Practitioner or Cancer Professional and selects 'Search'.</li>
+          <li>WordPress saves this information securely in a log, and pulls services that are relevant from the database and displays them.</li>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>The User can now view and scroll through a series of information about services that fit their needs</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!-- end of UC6 -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>PageScrollingToSection</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC7</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F7</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>When User selects a link in the sidebar it will scroll to a certain part of the page and display the relevant content.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>User</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>User is on a page of the website with multiple sections of content</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the User selects a part of content they would like to view in the sidebar</li>
+        <li>WordPress then automatically scrolls down the page to that section of content.</li>
+      </ol>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>User can now view certain section of page without having to scroll and find it manually</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!-- end of UC7 -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>HospitalContactDetails</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC8</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F8</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>User interacts with map or selects options to find a hospital that deals with their cancer.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Cancer Patient</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td>WordPress</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The Cancer Patient is on the website.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>Cancer Patient selects a hospital or a cancer pathway from dropdown list and selects 'Search'</li>
+        <li>WordPress then finds relevant hospitals from the database and displays them on the page.</li>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>The user can now use this information to contact or travel to a hospital.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table><!--end of UC8 -->
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>EditHomePage</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC9</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F9</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>The Homepage is full of 'Widgets' that the Administrator is able to edit.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>Administrator</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td>The Administrator is logged into WordPress</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the Administrator selects the Widgets Page<li>
+        <li>The Administrator then selects the content of the specific Widget they would like to edit</li>
+        <li>The Administrator then selects 'Save'.
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>WordPress saves the Widget to the database and updates the Widget on the homepage.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Use Case:</td>
+    <td>EmailListSignup</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">ID:</td>
+    <td>UC10</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Relevant Requirement ID:</td>
+    <td>F10</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Brief Description:</td>
+    <td>The user is able to sign up to an emailing list to subscribe for London Cancer updates.</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Primary Actors:</td>
+    <td>User</td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Secondary Actors:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Preconditions:</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Main Flow:</td>
+    <td>
+      <ol>
+        <li>The use case starts when the User is on a content page.<li>
+        <li>The User sees a widget encouraging the user to signup to the signup page.</li>
+        <li>The User enters their email address and selects 'Subscribe'.</li>
+    </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Post Conditions:</td>
+    <td>The email is securely saved in a Mailchimp mailing list database. </td>
+  </tr>
+
+  <tr>
+    <td class="usecaseleft" style="background-color: #745177; color: #FFFFFF;">Alternative Flows:</td>
+    <td></td>
+  </tr>
+</table>

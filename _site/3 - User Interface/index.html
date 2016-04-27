@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      User Interface &middot; London Cancer
+    
+  </title>
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/2015/group12/public/css/poole.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/syntax.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/hyde.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/animate.css">
+  <link rel="stylesheet" href="/2015/group12/public/css/custom.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700">
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/2015/group12/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/2015/group12/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <p class="client-name lead">
+        <a href="/2015/group12/">
+          LondonCancer.org Website Development
+        </a>
+      </p>
+
+      <p class="lead">Group 12 COMP203P Project Website</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/2015/group12/">Home</a>
+
+      
+
+      <ol>
+      
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//1%20-%20Background%20&%20Context/">Background & Context</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//2%20-%20Requirements%20&%20Use%20Cases/">Requirements & Use Cases</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item active" href="/2015/group12//3%20-%20User%20Interface/">User Interface</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//4%20-%20Research/">Research</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//5%20-%20Platform/">Platform</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//6%20-%20Prototypes%20&%20Experiments/">Prototypes & Experiments</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//7%20-%20GitHub%20Repository/">GitHub Repository</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//8%20-%20Testing%20Strategies/">Testing Strategies</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//9%20-%20Record%20of%20Progress/">Record of Progress</a>
+            </li>
+          
+        
+      
+        
+          
+            <li>
+              <a class="sidebar-nav-item" href="/2015/group12//91%20-%20Plans%20for%20Term%202/">Plans for Term 2</a>
+            </li>
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+      </ol>
+    </nav>
+
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">User Interface</h1>
+  <h2>Design Principles</h2>
+
+<p>Before we take our use cases and apply them to create a set of wireframes/designs, it&#39;s important to have a set of principles.</p>
+
+<p>The website should represent 6 design values from Don Norman&#39;s book The Design of Everyday Things:</p>
+
+<ol>
+  <li><strong>Visibility</strong> - The key functionality should always be obviously visible to the user</li>
+  <li><strong>Feedback</strong> - The website's functionality and navigating should provide feedback via interaction in a timely way.
+  </li>
+  <li><strong>Affordance</strong> - The website should use UI components such as buttons, and navigation bars that are familiar to users. The website's design should feel easy to navigate and use.</li>
+  <li><strong>Mapping</strong> – The website's navigation should have clear mappings between the navigation bar and the current page displayed.</li>
+  <li><strong>Consistency</strong> – The website should have a consistent visual style using London Cancer's style guide.</li>
+  <li><strong>Constraints</strong> – Remove choice where possible, keep things simple. </li>
+</ol>
+
+<h2>Design Sketches &amp; Wireframes</h2>
+
+<!-- from using the use cases -->
+
+<p class="message">
+  Following on from the Use Cases we can now start to define what the user interface of the website will look like. Note that a full redesign was not a requirement.
+</p>
+
+<p>While much of the interface in terms of layout will look and seem similar, its important to understand how the interface optimises to different device screens.</p>
+
+<p>Below is some screenshots of the current website with wireframes created to take the best of the current design and apply it with Responsive Web Design.</p>
+
+<p>Firstly we&#39;ll look at the Home Page and then a generic Content Page.</p>
+
+<h3>Homepage Desktop:</h3>
+
+<p>The current modular homepage with different widgets currently looks like this:</p>
+
+<p><img src="/assets/londoncancerhome.png" alt="London Cancer current"></p>
+
+<p>The wireframe will look similar to the actual design on a desktop device:</p>
+
+<p><img src="/assets/wireframe-londoncancerhome.png" alt="London Cancer homepage wireframe on Desktop"></p>
+
+<p>However, since the current website lacks Responsive Web Design, it is necessary to design wireframes to provide insight on how the website will look on tablet and mobile devices.</p>
+
+<h3>Homepage Tablet:</h3>
+
+<p>Maintains the same design, however reduces whitespace.</p>
+
+<p><img src="/assets/wireframe-londoncancerhome-tablet.png" alt="London Cancer homepage wireframe on Tablet"></p>
+
+<h3>Homepage Mobile:</h3>
+
+<p>Mobile, notice how the widgets snap to one per row and the navigation bar is hidden:</p>
+
+<p><img src="/assets/wireframe-londoncancerhome-mobile.png" alt="London Cancer homepage wireframe on Mobile hiding menu"></p>
+
+<p>However when the &#39;Hamburger&#39; menu icon is selected the navigation pages are revealed:</p>
+
+<p><img src="/assets/wireframe-londoncancerhome-mobile-showingmenu.png" alt="London Cancer homepage wireframe on Mobile showing menu"></p>
+
+<p><hr></p>
+
+<h3>Content Page Desktop</h3>
+
+<p>Currently the layout of most of the Content Pages employs a three column layout, here is a screenshot of the <a href="http://londoncancer.org/about/">About</a> page:</p>
+
+<p><img src="/assets/londoncancerabout.png" alt="London Cancer about page screenshot"></p>
+
+<p>Here are the key changes we&#39;re making to the content pages:</p>
+
+<ul>
+<li>Remove the banner</li>
+<li>Remove the right sidebar</li>
+<li>Have the left sidebar show hierarchy of pages (Home Page &gt; Section Page &gt; Subsection Page) and show which one is currently active/displayed.</li>
+<li>Increase the font sizes to make the text easier to ready</li>
+</ul>
+
+<p>Rather than using wireframes as we did for the homepage, we used sketches to quickly create easily understandable layouts for the content pages.</p>
+
+<p>Below is a print out of the current London Cancer&#39;s website <a href="http://londoncancer.org/about">About</a> page with our markings on what will be removed and changed:</p>
+
+<p><img src="/assets/sketch1.jpeg" alt="Modifying the about page"></p>
+
+<p>We then sketch what the page would look like after the changes on Desktop:</p>
+
+<p><img src="/assets/sketch2.jpeg" alt="Sketch2"></p>
+
+<h2>User Interface Requirements</h2>
+
+<!-- The UI specification can be seen as an extension of the design draft that provides a complete description that contains all details, exceptions, error cases, notifications, and so forth. -->
+
+<p>The homepage should have:</p>
+
+<ul>
+<li>A clear navigation system</li>
+<li>A call to action of explaining what London Cancer is</li>
+</ul>
+
+<p>It should also have six widgets that can be moved around and edited:</p>
+
+<ul>
+<li>Pathway boards</li>
+<li>Directory of services</li>
+<li>Patients, carers and public section</li>
+<li>GP referral forms</li>
+<li>News</li>
+<li>Events</li>
+</ul>
+
+<p>The content pages should have clear typography and easy to understand navigation/page hierarchy.</p>
+
+<h2>Style Guide</h2>
+
+<h3>Logo</h3>
+
+<p><img src="/assets/logo_main.png" alt="Logo"></p>
+
+<p>The logo should not be used in a width of less than 30mm. The logo should not be cropped, changed colour, changed perspective or changed orientation.</p>
+
+<h3>Colour Palette</h3>
+
+<table>
+  <tr>
+    <td class="magenta" style="  background-color: #e6186c;">Magenta #e6186c</td>
+    <td class="purple" style="color: #fff; background-color: #6f2977;">Purple #6f2977</td>
+    <td class="light-blue" style="color: #fff; background-color: #0086d4;">Light Blue #0086d4</td>
+  </tr>
+</table>
+
+</div>
+
+
+      <hr>
+
+    </div>
+
+
+  </body>
+</html>

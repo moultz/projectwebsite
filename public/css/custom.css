@@ -27,3 +27,25 @@
 .content .container .customhome {
   background-color: #000;
 }
+
+.moscowid {
+  width: 10%;
+}
+
+.moscowrequirement {
+  width: 70%;
+}
+
+.moscowranking {
+  width: 20%;
+}
+
+.usecaseleft {
+  width: 30%;
+  background-color: #DEDEDE;
+}
+
+.magenta {
+  color: #fff;
+  background-color: #e6186c;
+}
